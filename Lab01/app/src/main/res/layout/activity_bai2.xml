@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Bai2ActivityActivity">
+
+    <TextView
+        android:id="@+id/txtTieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Thơ Hay Về Dân IT"
+        android:textAlignment="center"
+        android:textColor="#ED0808"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/poem_part1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nếu một ngày Windows em báo lỗi\nAnh nguyện làm các Soft test đơn phương\nTừng Sector anh đi khắp nẻo đường\nFix hết nhé những Error trêu tức."
+
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/poem_part2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="AVI kia những đêm dài thao thức\nLỗi mất rồi thiếu Codec em ơi!\nNgõ Display lòng thấy quá chơi vơi\nAnh DIVX nhìn em cười tủ tỉ."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/poem_part3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Em lướt Web bao Trojan săn đón\nAnh xin làm chàng NAV đứng ngóng trông\nCó sức mình Scan hết băng thông\nChe chở em trước muôn ngàn Virus."
+        android:textAlignment="textEnd"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="Trở về " />
+</LinearLayout>
