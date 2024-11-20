@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Lab02</string>
+
+    <!-- "Chung full" -->
+    <string name="lam_moi">Làm Mới</string>
+    <string name="ket_thuc">Kết Thúc</string>
+
+    <!-- "Chung 2,3,4,5" -->
+    <string name="Tinh">Tính</string>
+    <string name="DT_CV">Diện tích:    - Chu vi:</string>
+    <string name="KetQua">Kết quả:</string>
+
+
+    <!-- "Bài 1" -->
+    <string name="tieu_de1">Tính Lương Nhân Viên</string>
+    <string name="tinh_luong">Tính Lương</string>
+    <string name="nhap_so_ngay_cong">Nhập số ngày công</string>
+    <string name="nhap_luong_mot_ngay">Nhập lương một ngày</string>
+    <string name="luong_thang">Lương tháng là:</string>
+
+    <!-- "Bài 2" -->
+    <string name="tieu_de2">Tính chu vi và diện tích hình chữ nhật</string>
+    <string name="ChieuDai">Nhập chiều Dài</string>
+    <string name="ChieuRong">Nhập chiều Rộng</string>
+
+    <!-- "Bài 3" -->
+    <string name="tieu_de3">Tính Chu Vi và Diện Tích Hình Tròn</string>
+    <string name="BanKinh">Nhập bán Kính</string>
+
+    <!-- "Bài 4" -->
+    <string name="tieu_de4">Tính Tổng Các Chữ Số</string>
+    <string name="nhap_so_nguyen">Nhập số nguyên</string>
+
+    <!-- "Bài 5" -->
+    <string name="tieu_de5">Phân Tích Số Nguyên Thành Thừa Số Nguyên</string>
+</resources>

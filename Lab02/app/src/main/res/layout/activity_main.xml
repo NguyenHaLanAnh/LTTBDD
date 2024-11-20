@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFEB3B"
+        android:text="Lab 2"
+        android:textAlignment="center"
+        android:textColor="#ED0808"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <!-- Button "Bài 1" -->
+    <Button
+        android:id="@+id/btn_bai1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="25sp"
+        android:text="Bài 1" />
+
+    <!-- Button "Bài 2" -->
+    <Button
+        android:id="@+id/btn_bai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="16dp"
+        android:text="Bài 2" />
+
+    <!-- Button "Bài 3" -->
+    <Button
+        android:id="@+id/btn_bai3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="16dp"
+        android:text="Bài 3" />
+
+    <!-- Button "Bài 4" -->
+    <Button
+        android:id="@+id/btn_bai4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="16dp"
+        android:text="Bài 4" />
+
+    <!-- Button "Bài 5" -->
+    <Button
+        android:id="@+id/btn_bai5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="16dp"
+        android:text="Bài 5" />
+
+</LinearLayout>
